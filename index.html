@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pronack Clicker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="cockie.png">
+  </head>
+  <body>
+    <div id="game">
+      <header>
+        <h1>Pronack Clicker</h1>
+      </header>
+      <main>
+        <div class="left">
+          <img id="cookie-image" src="cockie.png" alt=""/>
+        </div>
+        <div class="right">
+          <h2><span id="cookie-number"></span> Pesos</h2>
+          <span id="cookie-number-click"></span> por click -
+          <span id="cookie-number-second"></span> por segundo
+          <div id="updates">
+            <div id="cursor" class="update-box">
+              <div class="level">1</div>
+              <div>
+                Nota amarillista / Click<br />Precio:
+                <span class="price"></span> Pesos
+              </div>
+              <input type="button" value="Comprar" />
+            </div>
+
+            <div id="factory" class="update-box">
+              <div class="level"></div>
+              <div>
+                Publicidad de morena / pasivo<br />Precio:
+                <span class="price"></span> Pesos
+              </div>
+              <input type="button" value="Comprar" />
+            </div>
+
+            <div id="multiplier" class="update-box">
+              <div class="level"></div>
+              <div>
+                Empleado sin goce de sueldo<br />Precio: <span class="price"></span> Pesos
+              </div>
+              <input type="button" value="Comprar" />
+            </div>
+
+            <div id="colab" class="update-box">
+              <div class="level"></div>
+              <div>
+                Aparecer en ideologia inversa live<br />Precio: <span class="price"></span> Pesos
+              </div>
+              <input type="button" value="Comprar" />
+            </div>
+          </div>
+        </div>
+      </main>
+      <h5><span id="lore-text"></span></h2>
+    </div>
+    <script src="game.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/howler/2.1.1/howler.js"></script>
+  </body>
+</html>
